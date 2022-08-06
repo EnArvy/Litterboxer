@@ -1,4 +1,4 @@
-# Catboxer
+# Litterboxer
 ![Litterbox logo](https://litterbox.catbox.moe/resources/litterbox.png)
 
 
