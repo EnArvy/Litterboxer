@@ -2,7 +2,7 @@
 ![Litterbox logo](https://litterbox.catbox.moe/resources/litterbox.png)
 
 
-Upload files to LitteTemporary filehost) via Send to right click menu(Windows).
+Upload files to Litterbox(Temporary filehost) via Send to right click menu(Windows).
 
 Written in python.
 
@@ -10,6 +10,10 @@ Written in python.
 
 Just paste the release file `Litterboxer.exe` in the following location:
 `C:\Users\YourUserName\AppData\Roaming\Microsoft\Windows\SendTo\`
+
+Default expiration time is 24 hours. If you want to have a custom expiration time:
+* Make a new text file `Litterboxer.conf` in `C:\Users\YourUserName\AppData\Roaming\Microsoft\Windows\SendTo\`
+* Type One of the following options in the file and save it: `1h`,`12h`,`24h`,`72h`
 
 ## Usage
 
@@ -31,4 +35,4 @@ Files of sizes above 1GB are not allowed.
 
 * Clone this repository
 * Run `pip install -r requirements.txt`
-* Run `pyinstller --onefile -i Litterboxer.ico Litterboxer.py`
+* Run `pyinstaller --onefile -i Litterboxer.ico Litterboxer.py`
